@@ -1,0 +1,189 @@
+
+{
+  "editor.suggestSelection": "first",
+  "workbench.iconTheme": "vscode-icons",
+  "files.autoSave": "onFocusChange",
+  "emmet.triggerExpansionOnTab": true,
+  // "emmet.includeLanguages": {
+  //   "javascript": "javascriptreact",
+  //   "typescript": "typescriptreact"
+  // },
+  "prettier.singleQuote": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.foldingStrategy": "indentation",
+  "fileheader.Author": "junhao.yu",
+  "fileheader.LastModifiedBy": "junhao.yu",
+  "workbench.editor.showTabs": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "explorer.confirmDragAndDrop": false,
+  "editor.tabSize": 2,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[less]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cmake.configureOnOpen": true,
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook",
+    "*.txt": "default",
+    "*.csv": "default",
+    "*.o": "default",
+    "*.db": "default",
+    "*.xyt": "default"
+  },
+  "C_Cpp.clang_format_style": "WebKit",
+  "C_Cpp.clang_format_fallbackStyle": "WebKit",
+  "C_Cpp.default.cppStandard": "c++11",
+  "C_Cpp.default.compilerPath": "/usr/bin/clang",
+  "extensions.autoCheckUpdates": false,
+  "update.mode": "none",
+  "code-runner.runInTerminal": true,
+  "editor.formatOnType": true,
+  "glsllint.additionalStageAssociations": {
+    ".vert": "vert", // for a vertex shader
+    ".vs": "vert", // for a vertex shader
+    ".frag": "frag", // for a fragment shader
+    ".fs": "frag", // for a fragment shader
+    ".gs": "geom", // for a geometry shader
+    ".geom": "geom", // for a geometry shader
+    ".comp": "comp", // for a compute shader
+    ".tesc": "tesc", // for a tessellation control shader
+    ".tese": "tese", // for a tessellation evaluation shader
+    ".rgen": "rgen", // for a ray generation shader
+    ".rint": "rint", // for a ray intersection shader
+    ".rahit": "rahit", // for a ray any hit shader
+    ".rchit": "rchit", // for a ray closest shader
+    ".rmiss": "rmiss", // for a ray miss shader
+    ".rcall": "rcall", // for a ray callable shader
+    ".mesh": "mesh", // for a mesh shader
+    ".task": "task" // for a task shader
+  },
+  "glsl-canvas.refreshOnChange": true,
+  "glsl-canvas.useFormatter": true,
+  "glsl-canvas.useCompactFormatter": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.accessibilitySupport": "off",
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "typescript.disableAutomaticTypeAcquisition": true,
+  "security.workspace.trust.enabled": false,
+  "editor.quickSuggestions": {
+    "other": "inline",
+    "comments": "inline",
+    "strings": "inline"
+  },
+  "javascript.referencesCodeLens.enabled": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "oneDarkPro.editorTheme": "VS Code",
+  "search.followSymlinks": false,
+  "editor.quickSuggestionsDelay": 0,
+  "editor.suggest.preview": true,
+  "css.lint.unknownAtRules": "ignore",
+  "scss.lint.unknownAtRules": "ignore",
+  "typescript.tsserver.pluginPaths": ["typescript-plugin-css-modules"],
+  "svelte.enable-ts-plugin": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "glsllint.glslangValidatorPath": "/usr/local/bin/glslangValidator",
+  "svelte.plugin.svelte.note-new-transformation": false,
+  "html.format.extraLiners": "",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "",
+  // "terminal.integrated.shell.osx": "/bin/zsh",
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  // "editor.formatOnSave": true
+
+  "editor.guides.bracketPairs": true,
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  //使用系统粘贴板
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  //开启 easymotion
+  "vim.easymotion": true,
+  //相对显示代码行数
+  "editor.lineNumbers": "relative",
+  //修复光标经过折叠代码时自动展开的 bug
+  "vim.foldfix": true,
+  //映射空格键为 easymotion Start of word 指令快捷键
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [" "],
+      "after": ["leader", "leader", "leader", "b", "d", "w"]
+    },
+    // { "before": ["H"], "after": ["^"] },
+    // {
+    //   "before": ["L"],
+    //   "after": ["$"]
+    // },
+    {
+      "before": ["z", "z"],
+      "commands": ["editor.toggleFold"]
+    },
+    {
+      "before": ["g", "["],
+      "commands": ["editor.action.marker.prevInFiles"]
+    },
+    {
+      "before": ["g", "]"],
+      "commands": ["editor.action.marker.nextInFiles"]
+    }
+  ],
+  "vim.normalModeKeyBindings": [
+    { "before": ["<leader>", "m"], "commands": ["bookmarks.toggle"] },
+    { "before": ["<leader>", "b"], "commands": ["bookmarks.list"] }
+  ],
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["Esc"]
+    }
+  ],
+  "vim.operatorPendingModeKeyBindingsNonRecursive": [],
+  "window.zoomLevel": 1,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": true
+}
+
